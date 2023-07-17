@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav{
+    background-color: #2896fb;
+}
+.nav-container{
+    width: 95%;
+    margin: auto;
+    padding: 2px;
+}
+.mail i , .media i {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 14px
+}
+.mail:hover i{
+    color: black;
+}
+.media:hover i{
+    color: black;
+}
+.media-icon{
+    display: flex;
+    padding-right: 25px;
+    font-size: 14px;
+}
+.media i{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+.mail a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 800;
+}
+.nav-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.book h4 , .book i{
+    color:#fdc400;
+}
+.book{
+    border-left: 3px solid #fdc400;
+    display: flex;
+    align-items: center;
+    padding: 8px;
+    font-weight: 800;
+}
+.mail , .media{
+    display: flex;   
+}
+.envelop{
+    padding-left: 40px;
+}
+
+                                /* navigate sectin */
+.home-section{
+    background-color: #edf3fe;
+}
+.navigate-row, .navigate-contact{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 20px;
+}
+.navigate-logo img{
+    width: 150px;
+}
+.navigate{
+    width: 80%;
+    margin: 0 auto;
+}
+.navigate-pages a, .navigate-contact a{
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 700;
+}
+.navigate-contact{
+    border: 2px solid black;
+    padding: 2px 8px;
+}
+.navigate-pages a:hover{
+    background-color: black;
+    color: #ffff;
+    transition: all .3s ease;
+}
+.d-flex{
+    display: flex;
+    list-style: none;
+}
+.navigate-contact:hover{
+    background-color: black;
+    color: #ffff;
+    transition: all .3s ease;
+}
+.navigate-contact a:hover{
+    color: #ffff;
+}
+.wel-row{
+    display: flex;
+    align-items: center;
+}
+.wel-col{
+    width: 60%;
+}
+.wel-right{
+    width: 40%;
+}
+.wel-right img{
+    width: 450px;
+    height: auto;
+}
+.wel-col h6{
+    color: #4acf27;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: 'Kaushan Script';
+}
+.wel-col h2{
+    color: #2896fb;
+    font-size: 70px;
+    font-weight: 900;
+}
+.wel-col h3{
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+span{
+    color: #fdc400;
+    font-weight: 800;
+}
+.box-row{
+    display: flex;
+}
+.box{
+    margin: 40px 32px 0px 0px
+}
+
+
+.counting-section{
+    background-color: #70c066;
+}
+.counting-container{
+    width: 100%;
+    margin: auto;
+}
+.counting-row{
+    display: flex;
+    align-items: center;
+    color: #ffff;
+    padding: 30px;
+}
+.count{
+    width: 25%;
+    text-align: center;
+}
+.border{
+    border-right: 3px solid #2896fb;
+}
+.num{
+    font-size: 60px;
+    font-weight: bold;
+    display: inline-block;
+}
+.plus{
+    display: inline-block;
+    font-size: 44px;
+}
+.count h3{
+    margin-top: 10px;
+    font-weight: 200;
+}
+
+                                                    /* About ghl-boy */
+.about-section{
+    background-color: #edf3fe;
+}
+.about-container{
+    width: 90%;
+    margin: auto;
+}
+.about-row{
+    display: flex;
+    
+    padding: 70px 0px;
+}
+.img-sec{
+    width: 40%;
+    text-align: center;
+}
+.about-sec{
+    width: 60%;
+    padding-top: 22px;
+}
+.about-sec h6{
+    color: #4acf27;
+    font-size: 15px;
+    font-weight: 600;
+}
+.about-sec h1{
+    font-size: 55px;
+    padding-top: 11px;
+}
+.unique{
+    font-size: 55px;
+    color: #2896fb;
+}
+.about-sec p{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-top: 11px;
+}
+.name{
+    padding-top: 10px;
+    line-height: 1.6;
+}
+.name h3{
+    font-size: 30px;
+    font-weight: 600;
+}
+.name p{
+    font-size: 16px;
+    color: #8e8f90;
+    font-weight: 500;
+}
