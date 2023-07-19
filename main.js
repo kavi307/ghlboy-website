@@ -74,3 +74,40 @@ function myfun3(){
    
 }
 myfun3()
+
+
+
+function openModel(event) {
+
+    var myModal = new bootstrap.Modal(document.getElementById('adds-id'), {
+        keyboard: false,
+        backdrop:'static'
+      })
+      myModal.show()
+  
+}
+
+
+document.addEventListener("DOMContentLoaded", function () {
+    const form = document.getElementById("my-form");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+        const email = form.elements.email.value.trim();
+        
+        const area = form.elements.customScript.value.trim();
+
+        if (email === "") {
+            
+            document.getElementById("mail-alert").innerHTML = "Please enter your email";
+            return;
+        }
+        if (area === ""){
+            document.getElementById("area-alert").innerHTML = "What custom script do you want me to build for you? is required";
+            return;
+        }
+
+
+        alert("Form submitted successfully");
+    });
+});

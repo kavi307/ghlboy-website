@@ -157,8 +157,8 @@ body{
 }
 .wel-col h2{
     color: #2896fb;
-    font-size: 70px;
-    font-weight: 900;
+    font-size: 58px;
+    font-weight: 800;
 }
 .wel-col h3{
     font-size: 26px;
@@ -286,11 +286,11 @@ span{
     width: 25%;
     text-align: center;
 }
-.border{
+.bordar{
     border-right: 3px solid #2896fb;
 }
 .num{
-    font-size: 60px;
+    font-size: 58px;
     font-weight: bold;
     display: inline-block;
 }
@@ -301,6 +301,12 @@ span{
 .count h3{
     margin-top: 10px;
     font-weight: 200;
+}
+.card-top h1{
+    font-size: 1.5rem !important;
+}
+.border-bottom{
+    font-size: 20px !important;
 }
 
                                                     /* About ghl-boy */
@@ -403,11 +409,12 @@ span{
     padding: 10px;
 }
 .label-col{
-    width: 25%;
-    margin: 10px;
+    width: 33.3%;
+    margin: 2px;
     text-align: center;
     border: 1px solid #e5e5e5;
     background-color: #ffff;
+    position: relative;
     
 }
 /* .label-col :hover{
@@ -441,12 +448,13 @@ span{
 .black{
     background-color: black;
 }
-.mrgn , .margin{
-    margin: 86px 13px 19px;
+.mrgn{
+    position: absolute;
+    bottom: 0;
+    left: 45px;
+    display: flex;
 }
-.mrgin{
-    margin: 182px 13px 0;
-}
+
 /* .hover:hover a{
     border: 1px solid #000000;
     background-color: #000000;
@@ -586,28 +594,13 @@ ul li a:hover{
     padding-left: 10px;
     font-weight: 700;
 }
-/* .adds-video::before{
-    position: absolute;
-    width: 150%;
-    height: 150%;
-    background: conic-gradient(from 90deg,rgb(0 0 0 / 0%) 70%, rgb(11 78 230 / 9%) 80%, rgb(0 220 255) 100%);
-    content: '';
-    left: -25%;
-    top:-25%;
+.buttan{
+    text-align: center;
 }
-.adds-video::after{
-    position: absolute;
-    width: 94%;
-    height: 94%;
-    background-color:#202023;
-    content: '';
-    left: 3%;
-    top:3%;
-    animation: rotate 2s infinite linear;
+.modal-body input, textarea{
+    border-radius: 5px;
 }
-@keyframes rotate{
-    100%{
-        transform: rotate(360 deg);
-    }
-} */
-
+.modal-content{
+    border: 10px solid #e5e5e5 !important;
+    align-items: center;
+}
